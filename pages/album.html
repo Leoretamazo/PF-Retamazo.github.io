@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/style.css">
     <title>Albúm</title>
+    <link rel="stylesheet" href="../css/estilo.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Sevillana&display=swap" rel="stylesheet"> 
@@ -34,6 +34,49 @@
             </div>
           </nav>
     </header>
+    <main class="album">
+        <div class="card-group">
+            <div class="card">
+              <img src="../img/imagen1.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Tarta de cheesecake</h5>
+                <p class="card-text">Una tarta de queso, es un postre muy popular hecho a base de ricota</p>
+                <p class="card-text"><small class="text-body-secondary">Pedinos tu presupuesto</small></p>
+              </div>
+            </div>
+            <div class="card">
+              <img src="../img/imagen2.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Facturas</h5>
+                <p class="card-text">Contamos con mas de 10 variedades de facturas.</p>
+                <p class="card-text"><small class="text-body-secondary">Pedinos tu presupuesto</small></p>
+              </div>
+            </div>
+            <div class="card">
+              <img src="../img/imagen3.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Macarons</h5>
+                <p class="card-text">Un tipo de galleta tradicional de la gastronomía francesa</p>
+                <p class="card-text"><small class="text-body-secondary">Pedinos tu presupuesto</small></p>
+              </div>
+            </div>
+        </div>
+          <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active" style="background-image:url('../img/imagen6.jpg');"></div>
+              <div class="carousel-item" style="background-image:url('../img/imagen7.jpg');"></div>
+              <div class="carousel-item" style="background-image:url('../img/imagen8.jpg');"></div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </main>
     <footer>
         <!--Footer con mapa y redes sociales-->
     <div class="mapa container-fluid">

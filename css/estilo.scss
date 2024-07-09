@@ -1,0 +1,79 @@
+@import "../css/partials/variables";
+ 
+header{
+    .logo{
+        float: right;
+        width: 50px;
+        height: 50px;
+        margin-right: 1%;
+        z-index: 1;
+    }
+    .titulo{
+        font-family: "Sevillana", cursive;
+        float: right;
+        font-size: 25px;
+        margin-top: 10px;      
+    }
+}
+.nav-link{
+    display: flex;
+    flex-wrap: wrap;
+    border: 3px solid;
+    transition: all 0.8s ease;
+    border-radius: 15px;
+}
+.nav-link:hover{
+    background-color: $mainColor;
+    box-shadow: 0 0 20px v$mainColor;
+    border-color: v$mainColor;
+}    
+main{
+    .descripcion{
+        text-align: center;
+        font-family:$cambriaFont;
+        font-size: medium;
+        padding: 1% ;
+    }
+}
+
+h2{
+    text-align: center;
+    font-family: $cambriaFont;
+}
+
+.carousel-item{
+    width: 90%;
+    height: 550px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.familia{
+        text-align: center;
+        padding: 5%;
+        font-family: $cambriaFont;
+}
+.formulario{
+    height: 500px;
+    width: 90%;
+    padding: 5%;
+}
+
+footer{
+    background-color: #cacaca;
+    .mapa{
+        padding: 1%;
+    }
+}
+
+@media (max-width: 1000px){
+    :root{
+        --color:(white)
+    }
+}
+@media (max-width: 420px){
+    :root{
+        --color:(white)
+    }
+}

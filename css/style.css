@@ -42,11 +42,17 @@ h2{
     text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+
 .descripcion{
     text-align: center;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: medium;
     padding: 1% ;
+}
+.familia{
+    text-align: center;
+    padding: 5%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 footer{
     background-color: #cacaca;
